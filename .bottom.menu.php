@@ -1,0 +1,74 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Кирпич", 
+		"houses/kirpich/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Газобетон", 
+		"houses/gazobeton/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Керамические блоки", 
+		"houses/keramicheskie-bloki/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Дерево", 
+		"houses/derevo/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Комбинированные", 
+		"houses/kombinirovannye/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О компании", 
+		"about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О наших домах", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Популярные дома", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Посёлки", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

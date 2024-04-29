@@ -1,0 +1,513 @@
+@media screen and (max-width: 750px)
+{
+	.headd
+	{
+		min-height: 10px;/*лайф хак*/
+	}
+}
+
+
+@media screen and (max-width: 750px)
+{
+	.content
+	{
+	    width: 95% !important;
+	    margin: 0 auto;
+	}
+
+	.headd .right_area
+	{
+		margin-left: 0px !important;
+	}
+
+	.headd .left_menu 
+	{
+	    position: static;
+	    min-height: 1px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: space-between;
+	}
+}
+
+/*Попап на заявку*/
+@media screen and (max-width: 1100px)
+{
+	.send_order .pop-up-form
+	{
+		
+		max-width: 500px;
+		padding: 20px 50px;
+	}
+
+	.send_order h2
+	{
+		font-size: 20px;
+	}
+
+	.send_order p
+	{
+		font-size: 14px;
+	}
+
+	.send_order input 
+	{
+	    height: 30px;
+	    font-size: 14px;
+	}
+
+	.send_order .buttonn 
+	{
+	    width: 40%;
+	    height: 35px;
+	    font-size: 15px;
+	}
+
+	.send_order #close 
+	{
+	    font-size: 20px;
+	    right: -20px;
+    	top: -20px;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.send_order .pop-up-form
+	{
+		width: 90%;
+		padding: 20px;
+	}
+
+	.send_order h2
+	{
+		font-size: 16px;
+	}
+
+	.send_order p
+	{
+		font-size: 11px;
+	}
+
+	.send_order input 
+	{
+	    height: 30px;
+	    font-size: 12px;
+	}
+
+	.send_order .buttonn 
+	{
+	    width: 50%;
+	    height: 30px;
+	    font-size: 14px;
+	}
+
+	.send_order #close 
+	{
+	    right: -12px;
+    	top: -12px;
+    	font-size: 14px;
+	}
+}
+
+
+/*********success****************/
+@media screen and (max-width: 600px)
+{
+	#succes_order
+	{
+		font-size: 16px !important;
+	}
+}
+/*Попап на заявку*/
+
+
+
+/**************Хидер********************************************************/
+/*@media screen and (max-width: 1250px)*/
+@media screen and (max-width: 1540px)
+{
+	.headd .left_menu nav .one_menu a,
+	.headd .left_menu nav .two_menu li a,
+	.headd ul li a
+	{
+		/*font-size: 3vh;*/
+	}
+
+	.headd .left_menu .video p
+	{
+		/*font-size: 2vh;*/
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.headd .left_menu
+	{
+		width: 100%;
+		display: none;
+	}
+
+	.headd nav .emblema_menu h2
+	{
+		display: block;
+	}
+
+	.headd .left_menu .video p
+	{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+/**************************/
+@media screen and (max-width: 750px)
+{
+	.headd .left_menu nav .main_page_ref
+	{
+		width: 40%;
+	}
+
+	.headd .left_menu .video
+	{
+		height: 40px;
+	}
+
+	.headd .left_menu .video div a
+	{
+		height: 30px;
+		width: 30px;
+		margin-top: 0px;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	.headd .left_menu nav .one_menu a,
+	.headd .left_menu nav .two_menu li a,
+	.headd ul li a,
+	.headd .left_menu .video p
+	{
+		font-size: 10px;
+	}
+
+	.headd .left_menu nav .three_menu 
+	{
+	    margin-top: calc(100%/1080*30);
+	    margin-bottom: calc(100%/1080*30);
+	}
+
+	.headd .left_menu nav .two_menu 
+	{
+	    margin-bottom: 0;
+	}
+
+	.headd .left_menu nav .one_menu
+	{
+		margin-top: 0;
+	}
+}
+
+/*Поправочные классы на скрол*/
+@media screen and (max-width: 1200px)
+{
+	.modify_scroll nav a
+	{
+		font-size: 18px !important;
+	}
+
+	.modify_scroll h3
+	{
+		font-size: 18px;
+	}
+
+	.modify_scroll li
+	{
+		margin-right: 15px !important;
+	}
+}
+
+@media screen and (max-width: 900px)
+{
+	.modify_scroll nav a
+	{
+		font-size: 13px !important;
+	}
+
+	.modify_scroll h3
+	{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.modify_scroll .all_menu
+	{
+		display: none;
+	}
+
+	.modify_scroll .burger_menu
+	{
+		display: block !important;
+	}
+
+	.modify_scroll .emblema_menu
+	{
+		width: 35%;
+	}
+}
+
+@media screen and (max-width: 1200px)
+{
+	.modify_scroll .scroll_submenu_ready li,
+	.modify_scroll .scroll_submenu_about_company li
+	{
+		
+		width: 250px;
+		height: 40px;
+	}
+}
+
+@media screen and (max-width: 900px)
+{
+	.modify_scroll .scroll_submenu_ready li,
+	.modify_scroll .scroll_submenu_about_company li
+	{
+		
+		width: 200px;
+	}
+}
+/*Поправочные классы на скрол*/
+/**************Хидер********************************************************/
+
+/*****************************Футер*****************************************/
+@media screen and (max-width: 1100px)
+{
+
+	.footer_menu_two
+	{
+		margin-left: 20px !important;
+		width: 50%;
+	}
+
+	.footer_menu_one
+	{
+		width: 50%;
+	}
+
+	.footerr nav
+	{
+		width: 50%;
+	}
+
+	.footerr .contactt
+	{
+		width: 20%;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+
+	.footerr ul li
+	{
+		height: 30px;
+	}
+
+	.footerr .content
+	{
+		flex-direction: column;
+		margin: 0px;
+		width: 100%;
+	}
+
+	.footerr .content .left_info div
+	{
+		margin: 10px 0 10px 60px !important;
+	}
+
+	.footerr nav 
+	{
+	    margin-left: 0px !important;
+	}
+
+	.footerr .contactt
+	{
+		order: 0;
+		width: 100% !important;
+		background: #4e7144;
+		justify-content: center !important;
+		padding: 20px 0 20px 0;
+	}
+
+	.footerr .contactt div
+	{
+		text-align: center !important;
+		color: #ffffff;
+	}
+
+	.footerr nav
+	{
+		order: 1;
+		width: 100%;
+		justify-content: space-around;
+		margin: 10px 0 10px 0;
+	}
+
+	.footerr .left_info
+	{
+		order: 2;
+		width: 100% !important;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footerr .content
+	{
+		width: 100% !important;
+	}
+
+	.footerr
+	{
+		padding-top: 0px;
+	}
+
+	.footer_menu_one,
+	.footer_menu_two
+	{
+		width: 40%;
+	}
+
+	.footerr .emblema
+	{
+		width: 40% !important;
+	}
+
+	.footerr .content .left_info div a
+	{
+		width: 25%;
+	}
+
+	.footerr .content .left_info p
+	{
+		text-align: center;
+	}
+
+	.footerr .content .left_info div img
+	{
+		margin: 5px;
+	}
+}
+
+@media screen and (max-width: 425px)
+{
+	.footerr ul li a
+	{
+		font-size: 12px;
+	}
+
+	.footerr .content .left_info p
+	{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 320px)
+{
+	.footerr ul li a
+	{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	.footerr .emblema
+	{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.footerr
+	{
+		margin-top: 30px;
+	}
+}
+
+/*********Поправка************/
+@media screen and (max-width: 1400px)
+{
+	.footerr .content .left_info p
+	{
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 1170px)
+{
+	.footerr ul li a
+	{
+		font-size: 12px;
+	}
+
+	.footerr nav
+	{
+		margin-left: 40px;
+	}
+
+	.footerr .content .left_info div
+	{
+		margin: 27px 0 27px 0;
+	}
+
+	.footerr .content .contactt div h2
+	{
+		font-size: 14px;
+	}
+
+	.footerr .content .contactt div p
+	{
+		font-size: 14px;
+	}
+
+	.footerr .content .left_info p
+	{
+		font-size: 10px;
+	}
+
+	.footerr .emblema 
+	{
+	    width: 100%;
+	}
+}
+
+@media screen and (max-width: 880px)
+{
+	.footerr ul li a
+	{
+		font-size: 11px;
+	}
+}
+
+
+@media screen and (max-width: 750px)
+{
+	.footerr .content .contactt div h2
+	{
+		color: #ffffff;
+	}
+}
+
+
+
+/*********Поправка************/
+
+
+/*****************************Футер*****************************************/
+
+
